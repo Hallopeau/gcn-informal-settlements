@@ -1,4 +1,4 @@
-# Multivariate Ensemble Learning for Informal Settlement Mapping in Rio de Janeiro
+# BALISE: Data Balancing for Informal Settlement Mapping with Ensembles
 
 This repository contains the code associated with the scientific publication: 
 **"Overcoming Data Imbalance in Informal Settlement Mapping with Ensemble Learning"**.
