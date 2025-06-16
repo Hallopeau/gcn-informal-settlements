@@ -1,16 +1,35 @@
-# BALISE: Data Balancing for Informal Settlement Mapping with Ensembles
+# EgoGCN
 
-This repository contains the code associated with the scientific publication: 
-**"Addressing Data Imbalance in Urban Informal Settlement Mapping from Earth Observation Using Ensemble Learning: A Case Study in Rio de Janeiro"**
+This repository contains the code associated with the scientific publication:  
+**"Neighbor-Aware Informal Settlement Mapping with Graph Convolutional Networks"**  
+_Hallopeau et al., 2025_
 
-## 📂 Structure
-- `1_preprocessing/` → Data preprocessing steps 
-- `2_feature_engineering/` → Feature extraction and engineering 
-- `3_modeling/` → Training and inference results 
+## 📂 Overview
 
-## 🚀 How to Use
-Run the Jupyter notebooks in the given order to reproduce the analysis.
+This repository provides training and inference pipelines for the three models evaluated in the paper:
+- **MLP baseline (no neighbor)**
+- **MLP baseline (with neighbors)**
+- **Graph Convolutional Network (GCN)**
+
+**Data preprocessing and feature engineering** (e.g., vegetation indices, DEM features, road network statistics) are handled in a separate repository:  
+[https://github.com/Hallopeau/ensemble-learning-rio](https://github.com/Hallopeau/ensemble-learning-rio)  
+Specifically, see the directories:  
+- `1_preprocessing/`  
+- `2_feature_engineering/`
+
+**Additional metrics**: Tables showing full evaluation metrics beyond Kappa scores (e.g., Precision, Recall, F1-score) are provided in the supplementary PDF included in this repository.
 
 ## 📄 Citation
-If you use this code, please cite the paper: 
-_"Addressing Data Imbalance in Urban Informal Settlement Mapping from Earth Observation Using Ensemble Learning: A Case Study in Rio de Janeiro"_ (Hallopeau et al, 2025).
+
+If you use this code or build upon this work, please cite:
+
+> Hallopeau, T., et al. (2025). _Neighbor-Aware Informal Settlement Mapping with Graph Convolutional Networks_.
+
+BibTeX:
+```bibtex
+@article{hallopeau2025gcn,
+  title={Neighbor-Aware Informal Settlement Mapping with Graph Convolutional Networks},
+  author={Hallopeau, Guérin and others},
+  year={2025},
+  journal={To appear}
+}
