@@ -12,6 +12,7 @@ This repository provides training and inference pipelines for the three models e
 **Data preprocessing and feature engineering** (e.g., vegetation indices, DEM features, road network statistics) are handled in a separate repository:  
 [https://github.com/Hallopeau/ensemble-learning-rio](https://github.com/Hallopeau/ensemble-learning-rio)  
 Specifically, see the directories:  
+- `data/` 
 - `1_preprocessing/`  
 - `2_feature_engineering/`
 
