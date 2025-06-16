@@ -22,9 +22,6 @@ Specifically, see the directories:
 
 If you use this code or build upon this work, please cite:
 
-> Hallopeau, T., et al. (2025). _Neighbor-Aware Informal Settlement Mapping with Graph Convolutional Networks_.
-
-BibTeX:
 ```bibtex
 @article{hallopeau2025gcn,
   title={Neighbor-Aware Informal Settlement Mapping with Graph Convolutional Networks},
