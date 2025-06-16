@@ -1,5 +1,3 @@
-# EgoGCN
-
 This repository contains the code associated with the scientific publication:  
 **"Neighbor-Aware Informal Settlement Mapping with Graph Convolutional Networks"**  
 _Hallopeau et al., 2025_
